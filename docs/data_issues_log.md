@@ -1,0 +1,11 @@
+# Data issues log
+
+*SIMULATED source of the fictional Client P. Same structure as an issues log in a QA workbook: one line per issue, rule, severity, decision, status.*
+
+| ID | Rule | Table / field | Dimension | Severity | Description | Decision | Status | Opened |
+|---|---|---|---|---|---|---|---|---|
+| DI-01 | C2 | raw_events / event_id | uniqueness | high | After the 14/09/2026 outage the integration re-sent events of 09:00-12:00 several times: **3,214 duplicate rows** (same `event_id`, later `updated_at`). | Insert keyed on `event_id` (first row kept); count in `load_runs.duplicates_ignored`; ask the integration owner for idempotent retries. | Handled | 2026-09-14 |
+| DI-02 | C5, C6 | raw_events / event_ts (RO) | validity, consistency | high | From 01/10/2026 a new version of the RO device integration writes `session_start` and `slide_view` in **local time without offset**; `session_end` stays in UTC. 2,062 timestamps; read as UTC, **304 of 1,744 RO sessions end before they start**; the hourly profile moves 3 hours later. After 25/10/2026 (DST end) the offset is 2 h, not 3 h: a fixed "-3 h" fix would be wrong by one hour. | Read naive RO timestamps as Europe/Bucharest: keep the UTC reading (local - 2 h or local - 3 h) that is not after, and closest to, the server receive time `updated_at` (`sql/01_load.sql`). After the fix: 0 sessions end before they start. Report to the integration team. | Handled; fix requested at source | 2026-10-01 |
+| DI-03 | C1 | raw_events | completeness | high | 715 events of 14/09/2026 03:00-09:00 missing (job v1 moved its watermark after a failed run). | Backfill; job v2. See `incident_report_2026-09-14.md`. | Closed | 2026-09-14 |
+| DI-04 | sessionisation | sessions | consistency | low | 2 sessions without `session_end`: the same HCP opened the same content twice and the second session started before the first closed, so the end is attached to the later session. | Accepted (2 of 38,874 sessions); documented in `kpi_definitions.md`. A `session_id` sent by the source would remove the ambiguity: requested. | Accepted | 2026-11-25 |
+| DI-05 | C7 | dim_content / mlr_expiry | compliance | high | 412 sessions on 2 IT Brand B contents after their MLR expiry (up to 19 days). | Compliance alert, excluded from KPIs, raised with the client. | Open (client side) | 2026-11-25 |

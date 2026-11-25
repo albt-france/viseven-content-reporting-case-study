@@ -1,0 +1,9 @@
+market,query,total_count,received,pages,seconds,distinct_ids,complete
+RO,"query.locn=Romania, RECRUITING",411,411,1,1.7,411,True
+PL,"query.locn=Poland, RECRUITING",1390,1390,2,3.4,1390,True
+FR,"query.locn=France, RECRUITING",6074,6074,7,11.7,6074,True
+DE,"query.locn=Germany, RECRUITING",2890,2890,3,5.0,2890,True
+ES,"query.locn=Spain, RECRUITING",3121,3121,4,6.5,3121,True
+IT,"query.locn=Italy, RECRUITING",4096,4096,5,8.6,4096,True
+BG,"query.locn=Bulgaria, RECRUITING",285,285,1,1.4,285,True
+UA,"query.locn=Ukraine, RECRUITING",147,147,1,1.3,147,True

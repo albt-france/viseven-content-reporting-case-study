@@ -1,0 +1,11 @@
+run_label,day,source_events,warehouse_events,gap
+before_backfill,2026-09-12,55,55,0
+before_backfill,2026-09-13,44,44,0
+before_backfill,2026-09-14,1801,1086,-715
+before_backfill,2026-09-15,1895,1895,0
+before_backfill,2026-09-16,1916,1916,0
+after_backfill,2026-09-12,55,55,0
+after_backfill,2026-09-13,44,44,0
+after_backfill,2026-09-14,1801,1801,0
+after_backfill,2026-09-15,1895,1895,0
+after_backfill,2026-09-16,1916,1916,0

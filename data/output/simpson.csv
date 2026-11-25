@@ -1,0 +1,9 @@
+market,segment,sent,clicks,hcps,ctr,share_of_sends
+DE,All,22863,914,1465,0.04,1.0
+PL,All,8439,451,518,0.0534,1.0
+DE,GP,4094,297,270,0.0725,0.1791
+PL,GP,5468,341,315,0.0624,0.6479
+DE,Pharmacist,1608,96,173,0.0597,0.0703
+PL,Pharmacist,1268,64,84,0.0505,0.1503
+DE,Specialist,17161,521,1022,0.0304,0.7506
+PL,Specialist,1703,46,119,0.027,0.2018

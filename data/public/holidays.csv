@@ -1,0 +1,199 @@
+market,date,name
+RO,2025-01-01,New Year's Day
+RO,2025-01-02,Day after New Year's Day
+RO,2025-01-06,Epiphany
+RO,2025-01-07,Saint John the Baptist
+RO,2025-01-24,Union Day/Small Union
+RO,2025-04-18,Good Friday
+RO,2025-04-20,Easter Sunday
+RO,2025-04-21,Easter Monday
+RO,2025-05-01,Labour Day
+RO,2025-06-01,Children's Day
+RO,2025-06-08,Pentecost
+RO,2025-06-09,Whit Monday
+RO,2025-08-15,Dormition of the Theotokos
+RO,2025-11-30,St. Andrew's Day
+RO,2025-12-01,National Day/Great Union
+RO,2025-12-25,Christmas Day
+RO,2025-12-26,St. Stephen's Day
+PL,2025-01-01,New Year's Day
+PL,2025-01-06,Epiphany
+PL,2025-04-20,Easter Sunday
+PL,2025-04-21,Easter Monday
+PL,2025-05-01,May Day
+PL,2025-05-03,Constitution Day
+PL,2025-06-08,Pentecost
+PL,2025-06-19,Corpus Christi
+PL,2025-08-15,Assumption Day
+PL,2025-11-01,All Saints' Day
+PL,2025-11-11,Independence Day
+PL,2025-12-24,Christmas Eve
+PL,2025-12-25,Christmas Day
+PL,2025-12-26,St. Stephen's Day
+FR,2025-01-01,New Year's Day
+FR,2025-04-21,Easter Monday
+FR,2025-05-01,Labour Day
+FR,2025-05-08,Victory in Europe Day
+FR,2025-05-29,Ascension Day
+FR,2025-06-09,Whit Monday
+FR,2025-07-14,Bastille Day
+FR,2025-08-15,Assumption Day
+FR,2025-11-01,All Saints' Day
+FR,2025-11-11,Armistice Day
+FR,2025-12-25,Christmas Day
+DE,2025-01-01,New Year's Day
+DE,2025-04-18,Good Friday
+DE,2025-04-21,Easter Monday
+DE,2025-05-01,Labour Day
+DE,2025-05-29,Ascension Day
+DE,2025-06-09,Whit Monday
+DE,2025-10-03,German Unity Day
+DE,2025-12-25,Christmas Day
+DE,2025-12-26,St. Stephen's Day
+ES,2025-01-01,New Year's Day
+ES,2025-01-06,Epiphany
+ES,2025-04-18,Good Friday
+ES,2025-05-01,Labour Day
+ES,2025-08-15,Assumption
+ES,2025-10-12,National Day of Spain
+ES,2025-11-01,All Saints Day
+ES,2025-12-06,Constitution Day
+ES,2025-12-08,Immaculate Conception
+ES,2025-12-25,Christmas Day
+IT,2025-01-01,New Year's Day
+IT,2025-01-06,Epiphany
+IT,2025-04-20,Easter Sunday
+IT,2025-04-21,Easter Monday
+IT,2025-04-25,Liberation Day
+IT,2025-05-01,International Workers Day
+IT,2025-06-02,Republic Day
+IT,2025-08-15,Assumption Day
+IT,2025-11-01,All Saints Day
+IT,2025-12-08,Immaculate Conception
+IT,2025-12-25,Christmas Day
+IT,2025-12-26,St. Stephen's Day
+BG,2025-01-01,New Year's Day
+BG,2025-03-03,Liberation Day
+BG,2025-04-18,Good Friday
+BG,2025-04-19,Holy Saturday
+BG,2025-04-20,Easter Sunday
+BG,2025-04-21,Easter Monday
+BG,2025-05-01,International Workers' Day
+BG,2025-05-06,Saint George's Day
+BG,2025-05-26,Saints Cyril and Methodius Day
+BG,2025-09-08,Unification Day
+BG,2025-09-22,Independence Day
+BG,2025-12-24,Christmas Eve
+BG,2025-12-25,Christmas Day
+BG,2025-12-26,Second day of Christmas
+BG,2025-12-31,Currency change day
+UA,2025-01-01,New Year's Day
+UA,2025-03-08,International Women's Day
+UA,2025-04-20,Easter Sunday
+UA,2025-05-01,International Workers' Day
+UA,2025-05-08,Victory day over Nazism in World War II
+UA,2025-06-08,Pentecost
+UA,2025-06-28,Constitution Day
+UA,2025-07-15,Statehood Day
+UA,2025-08-24,Independence Day
+UA,2025-10-01,Defender of Ukraine Day
+UA,2025-12-25,Christmas Day
+RO,2026-01-01,New Year's Day
+RO,2026-01-02,Day after New Year's Day
+RO,2026-01-06,Epiphany
+RO,2026-01-07,Saint John the Baptist
+RO,2026-01-24,Union Day/Small Union
+RO,2026-04-10,Good Friday
+RO,2026-04-12,Easter Sunday
+RO,2026-04-13,Easter Monday
+RO,2026-05-01,Labour Day
+RO,2026-05-31,Pentecost
+RO,2026-06-01,Children's Day
+RO,2026-08-15,Dormition of the Theotokos
+RO,2026-11-30,St. Andrew's Day
+RO,2026-12-01,National Day/Great Union
+RO,2026-12-25,Christmas Day
+RO,2026-12-26,St. Stephen's Day
+PL,2026-01-01,New Year's Day
+PL,2026-01-06,Epiphany
+PL,2026-04-05,Easter Sunday
+PL,2026-04-06,Easter Monday
+PL,2026-05-01,May Day
+PL,2026-05-03,Constitution Day
+PL,2026-05-24,Pentecost
+PL,2026-06-04,Corpus Christi
+PL,2026-08-15,Assumption Day
+PL,2026-11-01,All Saints' Day
+PL,2026-11-11,Independence Day
+PL,2026-12-24,Christmas Eve
+PL,2026-12-25,Christmas Day
+PL,2026-12-26,St. Stephen's Day
+FR,2026-01-01,New Year's Day
+FR,2026-04-06,Easter Monday
+FR,2026-05-01,Labour Day
+FR,2026-05-08,Victory in Europe Day
+FR,2026-05-14,Ascension Day
+FR,2026-05-25,Whit Monday
+FR,2026-07-14,Bastille Day
+FR,2026-08-15,Assumption Day
+FR,2026-11-01,All Saints' Day
+FR,2026-11-11,Armistice Day
+FR,2026-12-25,Christmas Day
+DE,2026-01-01,New Year's Day
+DE,2026-04-03,Good Friday
+DE,2026-04-06,Easter Monday
+DE,2026-05-01,Labour Day
+DE,2026-05-14,Ascension Day
+DE,2026-05-25,Whit Monday
+DE,2026-10-03,German Unity Day
+DE,2026-12-25,Christmas Day
+DE,2026-12-26,St. Stephen's Day
+ES,2026-01-01,New Year's Day
+ES,2026-01-06,Epiphany
+ES,2026-04-03,Good Friday
+ES,2026-05-01,Labour Day
+ES,2026-08-15,Assumption
+ES,2026-10-12,National Day of Spain
+ES,2026-11-01,All Saints Day
+ES,2026-12-06,Constitution Day
+ES,2026-12-08,Immaculate Conception
+ES,2026-12-25,Christmas Day
+IT,2026-01-01,New Year's Day
+IT,2026-01-06,Epiphany
+IT,2026-04-05,Easter Sunday
+IT,2026-04-06,Easter Monday
+IT,2026-04-25,Liberation Day
+IT,2026-05-01,International Workers Day
+IT,2026-06-02,Republic Day
+IT,2026-08-15,Assumption Day
+IT,2026-10-04,St. Francis of Assisi's Day
+IT,2026-11-01,All Saints Day
+IT,2026-12-08,Immaculate Conception
+IT,2026-12-25,Christmas Day
+IT,2026-12-26,St. Stephen's Day
+BG,2026-01-01,New Year's Day
+BG,2026-01-02,Currency change day
+BG,2026-03-03,Liberation Day
+BG,2026-04-10,Good Friday
+BG,2026-04-11,Holy Saturday
+BG,2026-04-12,Easter Sunday
+BG,2026-04-13,Easter Monday
+BG,2026-05-01,International Workers' Day
+BG,2026-05-06,Saint George's Day
+BG,2026-05-25,Saints Cyril and Methodius Day
+BG,2026-09-07,Unification Day
+BG,2026-09-22,Independence Day
+BG,2026-12-24,Christmas Eve
+BG,2026-12-25,Christmas Day
+BG,2026-12-26,Second day of Christmas
+UA,2026-01-01,New Year's Day
+UA,2026-03-08,International Women's Day
+UA,2026-04-12,Easter Sunday
+UA,2026-05-01,International Workers' Day
+UA,2026-05-08,Victory day over Nazism in World War II
+UA,2026-05-31,Pentecost
+UA,2026-06-28,Constitution Day
+UA,2026-07-15,Statehood Day
+UA,2026-08-24,Independence Day
+UA,2026-10-01,Defender of Ukraine Day
+UA,2026-12-25,Christmas Day

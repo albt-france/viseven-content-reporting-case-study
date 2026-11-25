@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content-engagement reports case study</title>
+<style>
+:root { --bg:#F4F4F2; --card:#FCFCFB; --ink:#0B0B0B; --muted:#52514E; --line:#E1E0D9; --accent:#2A78D6; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:'Segoe UI', Arial, sans-serif; background:var(--bg); color:var(--ink); }
+.wrap { max-width:860px; margin:0 auto; padding:56px 16px; }
+h1 { font-size:30px; line-height:1.2; margin:0 0 10px; }
+p { color:var(--muted); font-size:16px; line-height:1.5; }
+.btns { display:flex; gap:12px; flex-wrap:wrap; margin:28px 0; }
+a.btn { display:inline-block; padding:14px 22px; border-radius:8px; text-decoration:none; font-weight:600; font-size:16px; }
+a.primary { background:var(--accent); color:#fff; }
+a.secondary { background:var(--card); color:var(--ink); border:1px solid var(--line); }
+.card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px 20px; }
+.card li { color:var(--muted); margin:6px 0; }
+footer { color:#898781; font-size:13px; margin-top:32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Viseven: content-engagement reports that clients can trust</h1>
+  <p>An independent data-analyst case study: how to deliver a pharma client a monthly report on its omnichannel content where every
+  number is defined, verified, reloadable and documented, even when the source breaks. Real public data on the market; a fictional
+  client ("Client P", 8 European markets) for the report itself.</p>
+  <div class="btns">
+    <a class="btn primary" href="report/viseven_data_analyst_case_study.pdf">Read the report (PDF, 7 pages)</a>
+    <a class="btn secondary" href="dashboard/">Open the interactive dashboard</a>
+  </div>
+  <div class="card"><ul>
+    <li>A REST load on ClinicalTrials.gov and on a local API with pagination, rate limit and an outage.</li>
+    <li>Eight verification checks, 14 SQL tests, an Excel report with real formulas checked against SQL.</li>
+    <li>KPI algorithms, an incident runbook, Agile requirements (Given-When-Then) and two feature articles.</li>
+  </ul></div>
+  <footer>Independent case study based on public data · not affiliated with or endorsed by Viseven</footer>
+</div>
+</body>
+</html>

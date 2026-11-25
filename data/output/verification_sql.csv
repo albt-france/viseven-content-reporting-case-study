@@ -1,0 +1,9 @@
+check_name,observed,expected
+event_id unique,0,0
+duplicates received and ignored,3214,
+"days with a gap, before backfill",1,
+"days with a gap, after backfill",0,0
+naive timestamps,2062,
+"sessions ending before start, after fix",0,0
+"sessions without session_end (overlapping sessions, see data_issues_log)",2,
+events on unknown HCP or content,0,0

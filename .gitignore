@@ -1,0 +1,11 @@
+.env
+data/raw/
+data/sim/
+data/_hidden_truth.csv
+data/*.duckdb
+data/*.duckdb.wal
+__pycache__/
+.ipynb_checkpoints/
+~$*.xlsx
+docs/_build/
+DECISIONS.md

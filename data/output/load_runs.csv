@@ -1,0 +1,4 @@
+job,mode,runs,failed_runs,requests,http_5xx,http_429,rows_received,rows_inserted,duplicates_ignored,seconds
+full,full,1,0,63,0,0,307042,307042,0,15.6
+v1,incremental,341,1,472,5,0,114123,110909,3214,120.3
+backfill,backfill,1,0,3,0,0,715,715,0,0.7

@@ -1,0 +1,78 @@
+year,area_group,medicines
+2016,Oncology,19
+2016,Infectious diseases,14
+2016,Cardiovascular & metabolic,9
+2016,Other,9
+2016,Immunology & inflammation,6
+2016,Neurology & psychiatry,4
+2016,Rare & genetic,3
+2017,Other,23
+2017,Oncology,18
+2017,Infectious diseases,12
+2017,Immunology & inflammation,11
+2017,Cardiovascular & metabolic,7
+2017,Neurology & psychiatry,5
+2017,Rare & genetic,3
+2018,Other,24
+2018,Oncology,19
+2018,Infectious diseases,9
+2018,Rare & genetic,8
+2018,Cardiovascular & metabolic,8
+2018,Neurology & psychiatry,6
+2018,Immunology & inflammation,6
+2019,Other,23
+2019,Oncology,11
+2019,Neurology & psychiatry,6
+2019,Infectious diseases,4
+2019,Cardiovascular & metabolic,3
+2019,Immunology & inflammation,3
+2019,Rare & genetic,2
+2020,Oncology,21
+2020,Other,15
+2020,Infectious diseases,12
+2020,Cardiovascular & metabolic,11
+2020,Immunology & inflammation,8
+2020,Neurology & psychiatry,7
+2020,Rare & genetic,4
+2021,Oncology,23
+2021,Other,16
+2021,Cardiovascular & metabolic,13
+2021,Neurology & psychiatry,9
+2021,Immunology & inflammation,7
+2021,Infectious diseases,6
+2021,Rare & genetic,1
+2022,Other,28
+2022,Oncology,21
+2022,Neurology & psychiatry,10
+2022,Cardiovascular & metabolic,10
+2022,Infectious diseases,6
+2022,Immunology & inflammation,5
+2022,Rare & genetic,4
+2023,Oncology,18
+2023,Other,18
+2023,Neurology & psychiatry,9
+2023,Cardiovascular & metabolic,7
+2023,Immunology & inflammation,5
+2023,Infectious diseases,5
+2023,Rare & genetic,3
+2024,Oncology,29
+2024,Other,26
+2024,Immunology & inflammation,12
+2024,Cardiovascular & metabolic,8
+2024,Infectious diseases,8
+2024,Rare & genetic,6
+2024,Neurology & psychiatry,5
+2025,Other,33
+2025,Oncology,33
+2025,Cardiovascular & metabolic,13
+2025,Neurology & psychiatry,8
+2025,Infectious diseases,8
+2025,Immunology & inflammation,7
+2025,Rare & genetic,6
+2026,Other,22
+2026,Cardiovascular & metabolic,13
+2026,Oncology,12
+2026,Immunology & inflammation,9
+2026,Rare & genetic,8
+2026,Infectious diseases,7
+2026,Neurology & psychiatry,3

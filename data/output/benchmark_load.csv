@@ -1,0 +1,6 @@
+scenario,requests,seconds,rows_loaded,lost_events,note,failed_runs,rows_per_request
+full_500,854,204.1,418666,0,"whole year, 500 rows per page",,490.0
+full_5000,102,37.9,418666,0,"whole year, 5,000 rows per page",,4105.0
+incremental_day,11,3.1,1697,0,"24/11/2026, 4 runs, 500 rows per page",,154.0
+incident_v1,19,13.1,1088,715,"14/09/2026 03:00 -> 15/09 03:00, watermark moves after failure",1.0,57.0
+incident_v2,24,15.5,1803,0,"14/09/2026 03:00 -> 15/09 03:00, watermark moves after verified batch",1.0,75.0

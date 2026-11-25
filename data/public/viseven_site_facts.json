@@ -1,0 +1,65 @@
+{
+ "home": {
+  "url": "https://viseven.com/",
+  "read": "2026-11-25",
+  "contains": {
+   "AI-powered": true,
+   "Pharma Marketing": true,
+   "eWizard": true,
+   "eVa": true,
+   "Kheiron": false,
+   "Lexi": true,
+   "life sciences": true,
+   "MLR": false,
+   "omnichannel": true,
+   "Viseven Europe OÜ": false,
+   "Viseven Europe LLC": false,
+   "Viseven USA LLC": false,
+   "12627365": false,
+   "38428784": false,
+   "lever.co": false
+  }
+ },
+ "careers": {
+  "url": "https://viseven.com/careers/",
+  "read": "2026-11-25",
+  "contains": {
+   "AI-powered": false,
+   "Pharma Marketing": false,
+   "eWizard": false,
+   "eVa": true,
+   "Kheiron": false,
+   "Lexi": true,
+   "life sciences": true,
+   "MLR": false,
+   "omnichannel": false,
+   "Viseven Europe OÜ": false,
+   "Viseven Europe LLC": false,
+   "Viseven USA LLC": false,
+   "12627365": false,
+   "38428784": false,
+   "lever.co": false
+  }
+ },
+ "privacy": {
+  "url": "https://viseven.com/privacy-policy/",
+  "read": "2026-11-25",
+  "contains": {
+   "AI-powered": true,
+   "Pharma Marketing": false,
+   "eWizard": true,
+   "eVa": true,
+   "Kheiron": true,
+   "Lexi": true,
+   "life sciences": true,
+   "MLR": false,
+   "omnichannel": true,
+   "Viseven Europe OÜ": true,
+   "Viseven Europe LLC": true,
+   "Viseven USA LLC": true,
+   "12627365": true,
+   "38428784": true,
+   "lever.co": false
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "title": "Data Analyst (Freelance)",
+ "categories": {
+  "commitment": "Freelance",
+  "department": "Viseven",
+  "location": "Bucharest",
+  "team": "Romania",
+  "allLocations": [
+   "Bucharest"
+  ]
+ },
+ "country": "RO",
+ "workplaceType": "remote",
+ "createdAt": "2026-11-12T14:55:52.656000",
+ "lists": [
+  {
+   "heading": "Responsibilities:",
+   "items": [
+    "• &nbsp; &nbsp;Data analysis and report development on requests from internal and external customers.",
+    "• &nbsp; &nbsp;Providing expert assistance in developing algorithms and methods for calculating report indicators.",
+    "• &nbsp; &nbsp;Develop and implement algorithms and mechanisms for verifying report data.",
+    "• &nbsp; &nbsp;Analysis and development of data download procedures for reports, development of optimization proposals.",
+    "• &nbsp; &nbsp;Development of proposals to improve the functionality of already created reports.",
+    "• &nbsp; &nbsp;Writing and maintaining up-to-date documentation on the developed functionality.&nbsp;",
+    "• &nbsp; &nbsp;Participates in restoring the system performance in case of failures and non-standard situations. &nbsp; &nbsp;",
+    "• &nbsp; &nbsp;Writing articles on the developed functionality"
+   ]
+  },
+  {
+   "heading": "Requirements:",
+   "items": [
+    "• &nbsp; &nbsp;2 years of experience.&nbsp;",
+    "• &nbsp; &nbsp;Good knowledge of the functionality of the modelling instruments.&nbsp;",
+    "• &nbsp; &nbsp;Good knowledge and experience in Excel.&nbsp;",
+    "• &nbsp; &nbsp;Good knowledge of data analysis&nbsp;",
+    "• &nbsp; &nbsp;Good knowledge and experience work with databases&nbsp;",
+    "• &nbsp; &nbsp;Good understanding and applying the principles of the API and REST API.&nbsp;",
+    "• &nbsp; &nbsp;Knowledge of Python or other instruments.&nbsp;",
+    "• &nbsp; &nbsp;Analyses and handles all functional tasks of intermediate complexity, able to perform challenging tasks by researching the topic, can design functionality of working instruments.",
+    "• &nbsp; &nbsp;Collaboration with internal customers and planning.&nbsp;",
+    "• &nbsp; &nbsp;Utilizing formal and informal written communication methods (for example, emails, newsletters, PowerPoint presentations, executive updates, task lists, updates) to communicate updates and findings\"\".",
+    "• &nbsp; &nbsp;Requirements description in Agile format: Epic, Story, \"\"Given-When-Then\"\" scenarios.",
+    "• &nbsp; &nbsp;Ability to interpret information in the free form of models, diagrams and tables.",
+    "• &nbsp; &nbsp;English Upper-intermediate level."
+   ]
+  }
+ ]
+}

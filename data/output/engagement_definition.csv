@@ -1,0 +1,3 @@
+channel,sessions,idle_sessions,naive_min_per_session,capped_min_per_session,naive_inflation
+e-detail,35097,617,3.21,2.32,0.3799
+web,3777,0,0.8,0.8,0.0

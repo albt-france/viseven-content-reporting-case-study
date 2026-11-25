@@ -1,0 +1,3 @@
+content_id,market,brand,type,mlr_expiry,status,sessions,hcps,n_rows,first_use_after_end,last_use,max_days_after_expiry
+CNT006,IT,Brand B,e-detail,2026-10-21,expired,230,199,230,2026-10-21,2026-11-09,19
+CNT014,IT,Brand B,e-detail,2026-11-03,expired,182,160,182,2026-11-03,2026-11-22,19

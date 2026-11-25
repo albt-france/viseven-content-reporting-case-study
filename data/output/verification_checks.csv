@@ -1,0 +1,17 @@
+run_label,check,rule,threshold,observed,status,action
+before_backfill,C1,distinct events per day = source /count,0 days with a gap,"1 day(s), -715 events (e.g. 2026-09-14)",FAIL,"find the window in load_runs, backfill it, re-run the checks"
+before_backfill,C2,event_id unique in the warehouse,0 duplicates stored,0 stored; 3214 received and ignored,PASS,insert keyed on event_id; log the source duplicates in docs/data_issues_log.md
+before_backfill,C3,"required fields, allowed values, parseable timestamps",0 rows,"0 missing, 0 bad values, 0 bad timestamps, 0 negative durations",PASS,"quarantine the rows, ask the source owner"
+before_backfill,C4,last updated_at within 6 h of the run clock,<= 360 min,9 min,PASS,check the scheduler and the API status
+before_backfill,C5,every timestamp carries an offset (Z),0 rows,"RO: 2,062 rows from 2026-10-01",WARN,"read naive RO timestamps as Europe/Bucharest (sql/01_load.sql), ask the integration team to fix the version"
+before_backfill,C6,no session ends before it starts,0 sessions,RO: 304,WARN,same root cause as C5
+before_backfill,C7,no session on a content after its MLR expiry / withdrawal,0 sessions,"412 sessions on 2 content(s), up to 19 days late CNT006 IT Brand B, CNT014 IT Brand B",ALERT,compliance alert in the report; raise with the client (no regulatory advice)
+before_backfill,C8,hcp_id and content_id exist in master data,0 rows,"0 unknown HCP, 0 unknown content",PASS,"hold the rows, refresh the master data"
+after_backfill,C1,distinct events per day = source /count,0 days with a gap,"0 day(s), 0 events",PASS,"find the window in load_runs, backfill it, re-run the checks"
+after_backfill,C2,event_id unique in the warehouse,0 duplicates stored,0 stored; 3214 received and ignored,PASS,insert keyed on event_id; log the source duplicates in docs/data_issues_log.md
+after_backfill,C3,"required fields, allowed values, parseable timestamps",0 rows,"0 missing, 0 bad values, 0 bad timestamps, 0 negative durations",PASS,"quarantine the rows, ask the source owner"
+after_backfill,C4,last updated_at within 6 h of the run clock,<= 360 min,9 min,PASS,check the scheduler and the API status
+after_backfill,C5,every timestamp carries an offset (Z),0 rows,"RO: 2,062 rows from 2026-10-01",WARN,"read naive RO timestamps as Europe/Bucharest (sql/01_load.sql), ask the integration team to fix the version"
+after_backfill,C6,no session ends before it starts,0 sessions,RO: 304,WARN,same root cause as C5
+after_backfill,C7,no session on a content after its MLR expiry / withdrawal,0 sessions,"412 sessions on 2 content(s), up to 19 days late CNT006 IT Brand B, CNT014 IT Brand B",ALERT,compliance alert in the report; raise with the client (no regulatory advice)
+after_backfill,C8,hcp_id and content_id exist in master data,0 rows,"0 unknown HCP, 0 unknown content",PASS,"hold the rows, refresh the master data"
